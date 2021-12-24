@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
+    <title>Contacts</title>
+</head>
+<body>
+    <header>
+        <img src="Baniere_800_200.jpg" alt="la bannière">
+        <h1>Un gros titre</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="">Gallerie</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <form method="post" action="fictif.php">
+        <fieldset>
+            <legend>une legende</legend>
+            <div>
+                <label for="nom">Nom:<strong>*</strong></label>
+                <input name="nom" type="text" minlength="2" maxlength="20" placeholder="Ex : Maurice" required>
+            </div>
+            <div>
+                <label for="email">E-mail:<strong>*</strong></label>
+                <input name="email" type="email" placeholder="Ex : monemail@email.com" required>
+            </div>
+            <div>
+                <label for="commentaire"></label>
+                <textarea name="commentaire" rows="10" cols="70" placeholder="Ex : je suis content"></textarea>
+            </div>
+            <div></div>
+                <label for="Ccopie">Envoyez moi une copie</label><input name="Ccopie" type="checkbox" checked>
+            <div>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </div>
+        </fieldset>
+    </form>
+
+    <footer>
+        <ul>
+            <li><a href="">lien fictif</a></li>
+            <li><a href="">lien fictif</a></li>
+            <li><a href="">lien fictif</a></li>
+            <li><a href="">lien fictif</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

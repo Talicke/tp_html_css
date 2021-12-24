@@ -1,0 +1,76 @@
+body{
+    background-image: radial-gradient(circle at top center, #CCDAE0, #EDF2F4);
+}
+
+img{
+    width: 800px;
+    height: 200px;
+}
+
+article img{
+    max-width: 200px;
+    max-height: 100px;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    color: #EF233C;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: Impact;
+}
+
+h3{
+    color: #2B2D42;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: dashed underline;
+}
+
+article{
+    border: 1px solid black;
+}
+
+article div{
+    text-align: center;
+}
+
+footer{
+    text-align: right;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a:link{
+    color: #D90529;
+}
+
+a:visited{
+    color: grey
+}
+
+a:hover{
+    color:#2B2D42
+}
+
+strong{
+    color:red
+}
+
+aside{
+    max-width: 200px;
+    float: right;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px dashed #D90529;
+}
+
+.blog article{
+    margin-right: 300px;
+    margin-bottom: 20px;
+}
